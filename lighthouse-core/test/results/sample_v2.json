@@ -4991,12 +4991,6 @@
           ]
         },
         {
-          "id": "interactive",
-          "weight": 15,
-          "group": "metrics",
-          "acronym": "TTI"
-        },
-        {
           "id": "total-blocking-time",
           "weight": 25,
           "group": "metrics",
@@ -5014,7 +5008,7 @@
         },
         {
           "id": "cumulative-layout-shift",
-          "weight": 5,
+          "weight": 20,
           "group": "metrics",
           "acronym": "CLS",
           "relevantAudits": [
@@ -5022,6 +5016,11 @@
             "non-composited-animations",
             "unsized-images"
           ]
+        },
+        {
+          "id": "interactive",
+          "weight": 0,
+          "acronym": "TTI"
         },
         {
           "id": "first-cpu-idle",
@@ -5274,7 +5273,7 @@
         }
       ],
       "id": "performance",
-      "score": 0.6
+      "score": 0.51
     },
     "accessibility": {
       "title": "Accessibility",

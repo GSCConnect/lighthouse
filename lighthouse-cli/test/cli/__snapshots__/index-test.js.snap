@@ -892,12 +892,6 @@ Object {
           "weight": 25,
         },
         Object {
-          "acronym": "TTI",
-          "group": "metrics",
-          "id": "interactive",
-          "weight": 15,
-        },
-        Object {
           "acronym": "TBT",
           "group": "metrics",
           "id": "total-blocking-time",
@@ -922,7 +916,12 @@ Object {
             "non-composited-animations",
             "unsized-images",
           ],
-          "weight": 5,
+          "weight": 20,
+        },
+        Object {
+          "acronym": "TTI",
+          "id": "interactive",
+          "weight": 0,
         },
         Object {
           "acronym": "FCI",

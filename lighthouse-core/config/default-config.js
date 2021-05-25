@@ -426,11 +426,11 @@ const defaultConfig = {
         {id: 'first-contentful-paint', weight: 15, group: 'metrics', acronym: 'FCP', relevantAudits: m2a.fcpRelevantAudits},
         {id: 'speed-index', weight: 15, group: 'metrics', acronym: 'SI'},
         {id: 'largest-contentful-paint', weight: 25, group: 'metrics', acronym: 'LCP', relevantAudits: m2a.lcpRelevantAudits},
-        {id: 'interactive', weight: 15, group: 'metrics', acronym: 'TTI'},
         {id: 'total-blocking-time', weight: 25, group: 'metrics', acronym: 'TBT', relevantAudits: m2a.tbtRelevantAudits},
-        {id: 'cumulative-layout-shift', weight: 5, group: 'metrics', acronym: 'CLS', relevantAudits: m2a.clsRelevantAudits},
+        {id: 'cumulative-layout-shift', weight: 20, group: 'metrics', acronym: 'CLS', relevantAudits: m2a.clsRelevantAudits},
 
         // These are our "invisible" metrics. Not displayed, but still in the LHR
+        {id: 'interactive', weight: 0, acronym: 'TTI'},
         {id: 'first-cpu-idle', weight: 0, acronym: 'FCI'},
         {id: 'max-potential-fid', weight: 0},
         {id: 'first-meaningful-paint', weight: 0, acronym: 'FMP'},
